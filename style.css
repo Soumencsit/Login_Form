@@ -1,0 +1,70 @@
+<style>
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  gap: 10px;
+  margin: 70px auto;
+  color: rgb(34, 25, 43);
+  background: rgba(234, 208, 208, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(154, 105, 105, 0.18);
+  padding: 80px 5px;
+  position: relative;
+  text-align: center;
+}
+body {
+  min-height: 100vh;
+  background: url("https://t4.ftcdn.net/jpg/05/37/72/67/240_F_537726706_J2lI9j6lmj7acVV6jdYUBpJ7CWHTZ9II.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.windowbtn {
+  position: absolute;
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+  right: 20px;
+  top: 15px;
+}
+.windowbtn > div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.w1 {
+  background-color: #fdbe04;
+}
+
+.w2 {
+  background-color: #38c76a;
+}
+
+.w3 {
+  background-color: #fd5f51;
+}
+
+p {
+  font-weight: 600;
+}
+</style>
